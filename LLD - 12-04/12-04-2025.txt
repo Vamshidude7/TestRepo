@@ -1,0 +1,65 @@
+12-04-2025
+
+API - Application Programming Interface
+
+frontend and backend communication thing - API
+
+What is a framework?
+Collection of Libraries
+
+what is a library?
+Collection of pre-written code and they handle specific things like below Spring libraries.
+
+What is Spring Boot?
+Collection of Spring Libraries. like below:
+
+
+
+SPRING DATA JPA - for DB Operations
+
+Spring Security - Authentication
+
+Spring Web - API Creation
+
+when Spring introduced it is called - Spring then Spring MVC then Spring Boot - Spring Boot 2.X
+
+Spring -- Java/Kotlin ---- JVM Architecture
+
+Spring is a JVM dependent framework.
+
+
+JVM:
+
+Java Virtual Machine - Java - Platform independent code
+
+Java File conversion:
+
+	Java - .java file -- .class file -- bytecode file
+
+Java >= 17
+
+Git/Git Bash
+
+IntelliJ IDEA
+
+DBeamer - SQL IDE
+
+Postman (Client/UI)
+
+MySQL/PostGRE SQL
+
+start.spring.io - for checking/creating demo file
+
+
+
+
+
+
+
+
+
+
+
+
+
+

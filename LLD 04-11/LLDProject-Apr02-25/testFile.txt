@@ -1,0 +1,5 @@
+this is a new line being added from gitDemo original folder
+This is a test file
+This is a new line
+This is a new new line
+Added this line in featureA branch

@@ -1,0 +1,105 @@
+14-04-2025
+
+Agenda
+MVC Architecture
+IoC and Dependency Injection
+Code flow and Structure
+APIs
+HTTP
+
+
+MVC:
+Model View Controller
+
+Java EE - Enterprise edition
+	Develop Web Application with Java
+
+	Java EE - servlet, JDBC
+
+Servlet - Functionality of java to create API or routing for APIs
+
+JDBC - Java Data Base Connections
+	Connect Java code/app to DB
+
+servlet - Controllers/RestControllers
+
+JDBC - Hibernate
+
+Previously - Monoliths - one big combined application
+
+Single Code -			
+	Model-Schema,  View-UI ,       Controlled- Backend
+
+MVC Architecture is old and not being used and is replaced by Microservices
+
+Code flow and Structure:
+
+src
+	controller - 1st hit will be Controller
+	service'
+	repo
+	model
+	--
+	--
+
+Controller - Contains APIs - 
+	-first point of contact for any request. 
+	-It does not contain any business logic/code. 
+	-It wont contact to DB
+	-It has authentication
+	-Validation of I/p Data
+	-any kind of data cleanup
+
+Service layer:
+	-It contains all the business logic like code.
+	-It will not talk to DB
+	
+Repo/DAO - Data access Object
+	-This is the layer that talks to the DB
+	-Doesnt contain any logic	
+	-CRUD ops
+	
+Model:
+	-It contains all the schema (Structure/Schema)
+	-No code logic
+
+IoC and Dependency Injection(DI):
+
+Inversion of Control (IoC)
+@Component - marks class for obj creation inside IoC Container
+@Repository - Component with User readability
+@Service - Component + Service class
+@RestController
+@AutoWired - tells spring about the required  dependencies - and spring does DI
+
+space to store all the objects in a container.
+
+RestAPIs and HTTP
+
+Rest API:
+
+API - Application Programming Interface
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
