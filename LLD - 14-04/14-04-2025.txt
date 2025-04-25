@@ -1,7 +1,6 @@
 14-04-2025
 
-Agenda:
-
+Agenda
 MVC Architecture
 IoC and Dependency Injection
 Code flow and Structure
@@ -35,7 +34,7 @@ MVC Architecture is old and not being used and is replaced by Microservices
 
 Code flow and Structure:
 
-src
+src - has many folders where below are the main 4 and there are additional folders.
 	controller - 1st hit will be Controller
 	service'
 	repo
@@ -57,7 +56,7 @@ Service layer:
 	
 Repo/DAO - Data access Object
 	-This is the layer that talks to the DB
-	-Doesnt contain any logic	
+	-Doesn't contain any logic	
 	-CRUD ops
 	
 Model:
@@ -71,7 +70,7 @@ Inversion of Control (IoC)
 @Repository - Component with User readability
 @Service - Component + Service class
 @RestController
-@AutoWired - tells spring about the required  dependencies - and spring does DI
+@AutoWired - tells spring about the required  dependencies - and spring does DI.
 
 space to store all the objects in a container.
 
@@ -80,6 +79,12 @@ RestAPIs and HTTP
 Rest API:
 
 API - Application Programming Interface
+
+public class Rectangle {
+    public void print() {
+        System.out.println("In Rectangle Class");
+    }
+}
 
 
 
