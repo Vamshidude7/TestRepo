@@ -86,6 +86,11 @@ public class Rectangle {
     }
 }
 
+Design Patterns:
+
+Service Layer Pattern
+Controller Based Pattern
+CQRS Pattern
 
 
 
