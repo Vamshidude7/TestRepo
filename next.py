@@ -1,15 +1,22 @@
-def next_greater_element(arr):
-    n = len(arr)
-    result = [-1] * n
-    stack = []
-    for i in range(n-1,-1, -1):
-        while stack and arr[stack[-1]] <= arr[i]:
-            stack.pop()
-        if stack:
-            result[i] = arr[stack[-1]]
-        
-        stack.append(i)
-    return result
+def multiply(a, b):
+    sign = -1 if (a < 0) ^ (b < 0) else 1
+    a, b = abs(a), abs(b)
+    if a.bit_count() < b.bit_count():
+        a, b = b, a
+    res = 0
+    while b > 0:
+        if b & 1:
+            res += a
+        a += a      # double a
+        b >>= 1     # halve b
+    return sign * res
 
-arr = [2, 5, 3, 1, 2, 4, 6]
-print(next_greater_element(arr))
+a = 65454654654654998992222222222222228587878878787877
+b = 11546465843121151261115454847687687687877867894897
+c = multiply(a,b)
+d= a*b
+if c == d:
+    print("Multiplication is correct")
+else:
+    print("Multiplication is incorrect")
+print(multiply(a,b))  # Output: 12
