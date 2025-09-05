@@ -1,0 +1,1 @@
+List<(bool isValid, string expectedStaStr, string actualSta)> results = new List<(bool, string, string)>();
