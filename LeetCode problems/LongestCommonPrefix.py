@@ -21,9 +21,10 @@
 # 1 <= strs.length <= 200
 # 0 <= strs[i].length <= 200
 # strs[i] consists of only lowercase English letters if it is non-empty.
-
+import collections
+from abc import ABC, abstractmethod
 class solution:
-
+    @abstractmethod
     def longestCommonPrefix(self, strs):
         if not strs:
             return ""
